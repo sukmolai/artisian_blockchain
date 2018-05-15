@@ -1,5 +1,8 @@
 print("Hello. Welcome to Artisian Blockchain")
-print("Press enter to start")
+print("\n\n")
+print("Press enter to continue. Type q to quit.")
+quit = input().lower().strip() == "q"
+
 
 # Typing game
 
